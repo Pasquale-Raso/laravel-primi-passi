@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/chi_sono', function () {
     return view('chi_sono');
 })->name("chi_sono");
+
+Route::get('/contatti', function () {
+    return view('contatti');
+})->name("contatti");
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+})->name("portfolio");

@@ -9,6 +9,15 @@
 <body>
     <h1>HOME PAGE</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat saepe inventore sapiente ratione cum quasi asperiores impedit! Similique quaerat molestias assumenda sunt harum ipsum consectetur? Eum quia animi quo consequatur.</p>
-    <a href="{{ route('chi_sono') }}"> chi sono </a>
+    <div class="link">
+        <a href="{{ route('chi_sono') }}"> chi sono </a>
+        <a href="{{ route('portfolio') }}"> portfolio </a>
+        <a href="{{ route('contatti') }}"> contatti </a>
+    </div>
+<style>
+    .link{
+        margin-left: 20px;
+    }
+</style>
 </body>
 </html>
