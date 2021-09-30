@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name("home");
+
+Route::get('/chi_sono', function () {
+    return view('chi_sono');
+})->name("chi_sono");
